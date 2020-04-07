@@ -26,8 +26,8 @@ public:
         }
     }
 
-    void Swap(int *x, int *y){
-            int temp = *x;
+    void Swap(T *x, T *y){
+            T temp = *x;
             *x = *y;
             *y = temp;
         }
